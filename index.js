@@ -1,7 +1,7 @@
-const { router, get, post } = require('micro-fork')
-const { getUsers, createUsers } = require('./routes/user')
+const { router, get } = require('micro-fork')
+const { getSenadores, getSenador } = require('./routes/senadores')
 
 module.exports = router()(
-  get('/api/user', getUsers),
-  post('/api/user', createUsers)
+  get('/senadores', getSenadores),
+  get('/senadores/:id', getSenador)
 )

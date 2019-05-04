@@ -10,7 +10,7 @@
   "scripts": {
     "test": "standard --verbose | snazzy && tape test.js | tap-summary",
     "dev": "micro-dev . -p 8080",
-    "start": "micro -l tcp://0.0.0.0:${PORT-8080}"
+    "start": "micro -l tcp://0.0.0.0:8080"
   },
   "repository": "YerkoPalma/senadores",
   "license": "MIT",
@@ -31,6 +31,7 @@
     "test-listen": "^1.1.0"
   },
   "dependencies": {
+    "lowdb": "^1.0.0",
     "micro": "^9.3.4",
     "micro-fork": "^2.0.0"
   }

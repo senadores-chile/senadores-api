@@ -1,0 +1,384 @@
+{
+  "senadores": [
+    {
+      "id": 905,
+      "nombre": "Allamand Zavala, Andrés",
+      "rut": "5002921-2",
+      "region": "Región Metropolitana ",
+      "circunscripcion": 7,
+      "telefono": "(56-32) 2504701",
+      "mail": "allamand@senado.cl",
+      "partido": "R.N."
+    },
+    {
+      "id": 985,
+      "nombre": "Allende Bussi, Isabel",
+      "rut": "4465782-1",
+      "region": "Región de Atacama",
+      "circunscripcion": 3,
+      "telefono": "(56-32) 2504671",
+      "mail": "iallende@senado.cl",
+      "partido": "P.S."
+    },
+    {
+      "id": 1110,
+      "nombre": "Araya Guerrero, Pedro",
+      "rut": "12615234-5",
+      "region": "Región de Antofagasta",
+      "circunscripcion": 2,
+      "telefono": "(56-32) 2504703",
+      "mail": "paraya@senado.cl",
+      "partido": "Independiente"
+    },
+    {
+      "id": 907,
+      "nombre": "Bianchi Chelech, Carlos",
+      "rut": "7452450-8",
+      "region": "Región de Magallanes y la Antártica Chilena\n\n",
+      "circunscripcion": 19,
+      "telefono": "(56-32) 2504566",
+      "mail": "cbianchi@senado.cl",
+      "partido": "Independiente"
+    },
+    {
+      "id": 986,
+      "nombre": "Chahuán Chahuán, Francisco",
+      "rut": "10300626-0",
+      "region": "Región de Valparaíso",
+      "circunscripcion": 6,
+      "telefono": "(56-32) 2504673",
+      "mail": "fchahuan@senado.cl",
+      "partido": "R.N."
+    },
+    {
+      "id": 687,
+      "nombre": "Coloma Correa, Juan Antonio",
+      "rut": "13829856-6",
+      "region": "Región del Maule",
+      "circunscripcion": 10,
+      "telefono": "(56-32) 2504505",
+      "mail": "jcoloma@senado.cl",
+      "partido": "U.D.I."
+    },
+    {
+      "id": 1115,
+      "nombre": "De Urresti Longton, Alfonso",
+      "rut": "9062945-K",
+      "region": "Región de los Ríos",
+      "circunscripcion": 16,
+      "telefono": "l",
+      "mail": "adeurresti@senado.cl",
+      "partido": "P.S."
+    },
+    {
+      "id": 688,
+      "nombre": "Espina Otero, Alberto",
+      "rut": "7098992-1",
+      "region": "Región de la Araucanía",
+      "circunscripcion": 14,
+      "telefono": "(56-32) 2504508",
+      "mail": "aespina@senado.cl",
+      "partido": "R.N."
+    },
+    {
+      "id": 1066,
+      "nombre": "García Huidobro Sanfuentes, Alejandro",
+      "rut": "6266698-6",
+      "region": "Región del Libertador General Bernardo O'Higgins",
+      "circunscripcion": 9,
+      "telefono": "(56 32) 2504667",
+      "mail": "agarciahuidobro@senado.cl",
+      "partido": "U.D.I."
+    },
+    {
+      "id": 690,
+      "nombre": "García Ruminot, José",
+      "rut": "7169241-8",
+      "region": "Región de la Araucanía",
+      "circunscripcion": 15,
+      "telefono": "(56-32) 2504512",
+      "mail": "jgarcia@senado.cl",
+      "partido": "R.N."
+    },
+    {
+      "id": 909,
+      "nombre": "Girardi Lavín, Guido",
+      "rut": "8462985-5",
+      "region": "Región Metropolitana ",
+      "circunscripcion": 7,
+      "telefono": "(56-32) 2504570",
+      "mail": "ggirardi@senado.cl",
+      "partido": "P.P.D."
+    },
+    {
+      "id": 1113,
+      "nombre": "Goic Boroevic, Carolina",
+      "rut": "8124187-2",
+      "region": "Región de Magallanes y la Antártica Chilena\n\n",
+      "circunscripcion": 19,
+      "telefono": "(56-32) 2504707",
+      "mail": "cgoic@senado.cl",
+      "partido": "P.D.C."
+    },
+    {
+      "id": 1111,
+      "nombre": "Guillier Álvarez, Alejandro",
+      "rut": "7054381-8",
+      "region": "Región de Antofagasta",
+      "circunscripcion": 2,
+      "telefono": "l",
+      "mail": "aguillier@senado.cl",
+      "partido": "Independiente"
+    },
+    {
+      "id": 1114,
+      "nombre": "Harboe Bascuñán, Felipe",
+      "rut": "8826664-1",
+      "region": "Región del Bío-Bío",
+      "circunscripcion": 13,
+      "telefono": "(56-32) 2504711",
+      "mail": "fharboe@senado.cl",
+      "partido": "P.P.D."
+    },
+    {
+      "id": 58,
+      "nombre": "Horvath Kiss, Antonio",
+      "rut": "10530214-2",
+      "region": "Región de Aysén del General Carlos Ibáñez del Campo ",
+      "circunscripcion": 18,
+      "telefono": "(56-32) 2504427",
+      "mail": "ahorvath@senado.cl",
+      "partido": "Independiente"
+    },
+    {
+      "id": 987,
+      "nombre": "Lagos Weber, Ricardo",
+      "rut": "7938007-5",
+      "region": "Región de Valparaíso",
+      "circunscripcion": 6,
+      "telefono": "(56-32) 2504675",
+      "mail": "rlagos@senado.cl",
+      "partido": "P.P.D."
+    },
+    {
+      "id": 34,
+      "nombre": "Larraín Fernández, Hernán",
+      "rut": "4773836-9",
+      "region": "Región del Maule",
+      "circunscripcion": 11,
+      "telefono": "(56-32) 2504423",
+      "mail": "hlarrain@senado.cl",
+      "partido": "U.D.I."
+    },
+    {
+      "id": 912,
+      "nombre": "Letelier Morel, Juan Pablo",
+      "rut": "7049575-9",
+      "region": "Región del Libertador General Bernardo O'Higgins",
+      "circunscripcion": 9,
+      "telefono": "(56-32) 2504576",
+      "mail": "jpletelier@senado.cl",
+      "partido": "P.S."
+    },
+    {
+      "id": 156,
+      "nombre": "Matta Aragay, Manuel Antonio",
+      "rut": "4989165-2",
+      "region": "Región del Maule",
+      "circunscripcion": 11,
+      "telefono": "(56-32) 2504725",
+      "mail": "mmatta@senado.cl",
+      "partido": "P.D.C."
+    },
+    {
+      "id": 1119,
+      "nombre": "Montes Cisternas, Carlos",
+      "rut": "4778821-8",
+      "region": "Región Metropolitana ",
+      "circunscripcion": 8,
+      "telefono": "(56-32)  4714 |",
+      "mail": "cmontes@senado.cl",
+      "partido": "P.S."
+    },
+    {
+      "id": 1117,
+      "nombre": "Moreira Barros, Iván",
+      "rut": "6364944-9",
+      "region": "Región de Los Lagos",
+      "circunscripcion": 17,
+      "telefono": "(56-32) 2504715",
+      "mail": "imoreira@senado.cl",
+      "partido": "U.D.I."
+    },
+    {
+      "id": 1118,
+      "nombre": "Muñoz D`Albora, Adriana",
+      "rut": "6025646-2",
+      "region": "Región de Coquimbo\n\n",
+      "circunscripcion": 4,
+      "telefono": "(56-32) 2504717",
+      "mail": "amunoz@senado.cl",
+      "partido": "P.P.D."
+    },
+    {
+      "id": 915,
+      "nombre": "Navarro Brain, Alejandro",
+      "rut": "8510034-3",
+      "region": "Región del Bío-Bío",
+      "circunscripcion": 12,
+      "telefono": "(56-32) 2504582",
+      "mail": "anavarro@senado.cl",
+      "partido": "MAS"
+    },
+    {
+      "id": 692,
+      "nombre": "Orpis Bouchon, Jaime",
+      "rut": "7005559-7",
+      "region": "Región de Tarapacá\n\n",
+      "circunscripcion": 1,
+      "telefono": "(56-32) 2504515",
+      "mail": "jorpis@senado.cl",
+      "partido": "U.D.I."
+    },
+    {
+      "id": 1120,
+      "nombre": "Ossandón Irarrázabal, Manuel José",
+      "rut": "7022006-7",
+      "region": "Región Metropolitana ",
+      "circunscripcion": 8,
+      "telefono": "(56-32) 2504719",
+      "mail": "mjossandon@senado.cl",
+      "partido": "R.N."
+    },
+    {
+      "id": 1007,
+      "nombre": "Pérez San Martín, Lily",
+      "rut": "7022810-6",
+      "region": "Región de Valparaíso",
+      "circunscripcion": 5,
+      "telefono": "(56-32) 2504677",
+      "mail": "lperez@senado.cl",
+      "partido": "Amplitud"
+    },
+    {
+      "id": 916,
+      "nombre": "Pérez Varela, Víctor",
+      "rut": "7224810-4",
+      "region": "Región del Bío-Bío",
+      "circunscripcion": 13,
+      "telefono": "(56-32) 2504584",
+      "mail": "vperez@senado.cl",
+      "partido": "U.D.I."
+    },
+    {
+      "id": 163,
+      "nombre": "Pizarro Soto, Jorge",
+      "rut": "6033019-0",
+      "region": "Región de Coquimbo\n\n",
+      "circunscripcion": 4,
+      "telefono": "(56-32) 2504260",
+      "mail": "jpizarro@senado.cl",
+      "partido": "P.D.C."
+    },
+    {
+      "id": 693,
+      "nombre": "Prokurica Prokurica, Baldo",
+      "rut": "5261867-3",
+      "region": "Región de Atacama",
+      "circunscripcion": 3,
+      "telefono": "(56-32) 2504518",
+      "mail": "bprokurica@senado.cl",
+      "partido": "R.N."
+    },
+    {
+      "id": 1008,
+      "nombre": "Quintana Leal, Jaime",
+      "rut": "10754652-9",
+      "region": "Región de la Araucanía",
+      "circunscripcion": 14,
+      "telefono": "(56-32) 2504679",
+      "mail": "jquintana@senado.cl",
+      "partido": "P.P.D."
+    },
+    {
+      "id": 1116,
+      "nombre": "Quinteros Lara, Rabindranath",
+      "rut": "4423698-2",
+      "region": "Región de Los Lagos",
+      "circunscripcion": 17,
+      "telefono": "(56-32) 2504721",
+      "mail": "rquinteros@senado.cl",
+      "partido": "P.S."
+    },
+    {
+      "id": 1010,
+      "nombre": "Rossi Ciocca, Fulvio",
+      "rut": "9510876-8",
+      "region": "Región de Tarapacá\n\n",
+      "circunscripcion": 1,
+      "telefono": "(56-32) 2504683",
+      "mail": "frossi@senado.cl",
+      "partido": "P.S."
+    },
+    {
+      "id": 1011,
+      "nombre": "Tuma Zedán, Eugenio",
+      "rut": "4649124-6",
+      "region": "Región de la Araucanía",
+      "circunscripcion": 15,
+      "telefono": "(56-32) 2504685",
+      "mail": "etuma@senado.cl",
+      "partido": "P.P.D."
+    },
+    {
+      "id": 1112,
+      "nombre": "Van Rysselberghe Herrera, Jacqueline",
+      "rut": "8832758-6",
+      "region": "Región del Bío-Bío",
+      "circunscripcion": 12,
+      "telefono": "(56-32) 2504723",
+      "mail": "jvanr@senado.cl",
+      "partido": "U.D.I."
+    },
+    {
+      "id": 1067,
+      "nombre": "Von Baer Jahn, Ena",
+      "rut": "12927840-4",
+      "region": "Región de los Ríos",
+      "circunscripcion": 16,
+      "telefono": "(56-32) 2504693",
+      "mail": "evonbaer@senado.cl",
+      "partido": "U.D.I."
+    },
+    {
+      "id": 1013,
+      "nombre": "Walker Prieto, Ignacio",
+      "rut": "6241305-0",
+      "region": "Región de Valparaíso",
+      "circunscripcion": 5,
+      "telefono": "(56-32) 2504687",
+      "mail": "iwalker@senado.cl",
+      "partido": "P.D.C."
+    },
+    {
+      "id": 1012,
+      "nombre": "Walker Prieto, Patricio",
+      "rut": "9857288-0",
+      "region": "Región de Aysén del General Carlos Ibáñez del Campo ",
+      "circunscripcion": 18,
+      "telefono": "(56-32) 2504689",
+      "mail": "pwalker@senado.cl",
+      "partido": "P.D.C."
+    },
+    {
+      "id": 60,
+      "nombre": "Zaldívar Larraín, Andrés",
+      "rut": "3244592-6",
+      "region": "Región del Maule",
+      "circunscripcion": 10,
+      "telefono": "(56-32) 2504691",
+      "mail": "azaldivar@senado.cl",
+      "partido": "P.D.C."
+    }
+  ]
+}
