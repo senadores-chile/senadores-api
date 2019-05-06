@@ -2,6 +2,15 @@ const utils = require('../utils')
 const { JSDOM } = require('jsdom')
 const http = require('http')
 
+/**
+ * Agrega filtros de busqueda a una llamada a servidor
+ *
+ * @function
+ * @param {LoDashExplicitAsyncWrapper<any>} chain coleccion de datos que filtrar
+ * @param {IncomingMessage} req request nativo de Node.js
+ * @param {ServerResponse} res response nativo de Node.js
+ * @returns {Array} arreglo con los valores filtrados
+ */
 exports.addFilters = function (chain, req, res) {
   let q = req.query.q
   let _start = req.query._start
@@ -159,6 +168,14 @@ exports.addFilters = function (chain, req, res) {
   return chain.value()
 }
 
+/**
+ * Web scraping sobre sitios estaticos
+ *
+ * @function
+ * @param {String} address url para hacer scrapping
+ * @param {Function} cb callback que se ejecuta cuando esta listo para hacer scrapping, recibe un objeto window
+ * @returns {void}
+ */
 exports.scrape = function (address, cb) {
   http.get(address, res => {
     if (res.statusCode === 200) {
