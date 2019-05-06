@@ -11,32 +11,50 @@ test('setup', t => {
   t.end()
 })
 
-test('POST /api/user', async t => {
+test('GET /senadores', async t => {
   t.plan(1)
   try {
-    const response = await axios.post('/api/user', {
-      name: 'John',
-      mail: 'john@doe.io'
-    })
-    // should use fixtures for bigger apps
-    t.deepEqual(response.data, [{
-      name: 'John',
-      mail: 'john@doe.io'
-    }])
+    const response = await axios.get('/senadores')
+    t.equal(response.data.length, 43)
   } catch (error) {
     t.fail(error)
   }
 })
 
-test('GET /api/user', async t => {
+test('GET /senadores filters', async t => {
+  try {
+    // ?_page
+    // ?_page & _limit
+    // ?_start & _end
+    // ?_end
+    // ?_limit
+    // ?_start & _limit
+    // ?_sort
+    // ?_sort & _order
+    // ?_ne
+    // ?_gte || _lte
+    // ?_like
+    // ?q
+    // query by fields
+  } catch (error) {
+    t.fail(error)
+  }
+})
+
+test('GET /senadores/:id', async t => {
   t.plan(1)
   try {
-    const response = await axios.get('/api/user')
-    // should use fixtures for bigger apps
-    t.deepEqual(response.data, [{
-      name: 'John',
-      mail: 'john@doe.io'
-    }])
+    const response = await axios.get('/senadores/905')
+    t.deepEqual(response.data, {
+      id: 905,
+      nombre: 'Allamand Zavala, Andrés',
+      rut: '',
+      region: 'Región Metropolitana de Santiago ',
+      circunscripcion: 7,
+      telefono: '(56-32) 2504701 ',
+      mail: 'allamand@senado.cl',
+      partido: 'R.N.'
+    })
   } catch (error) {
     t.fail(error)
   }

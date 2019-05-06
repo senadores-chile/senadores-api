@@ -25,7 +25,7 @@ exports.getSenador = (req, res) => {
     .then(db => {
       init(db, { senadores: [] })
       const senador = db.get('senadores')
-        .find({ id: req.params.id })
+        .find({ id: parseInt(req.params.id) })
         .value()
       return send(res, 200, senador)
     })
