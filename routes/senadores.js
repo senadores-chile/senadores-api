@@ -3,6 +3,7 @@ const low = require('lowdb')
 const FileAsync = require('lowdb/adapters/FileAsync')
 const adapter = new FileAsync('db/senadores.json')
 const { addFilters, scrape } = require('./base')
+const infoRut = require('info-rut')
 
 exports.getSenadores = (req, res) => {
   low(adapter)
@@ -38,15 +39,17 @@ exports.updateSenadores = (req, res) => {
   const SENADORES_URL = 'http://senado.cl/appsenado/index.php?mo=senadores&ac=listado'
   scrape(SENADORES_URL, window => {
     const listaSenadores = Array.from(window.document.querySelectorAll('.auxi-art .clase_tabla > tbody > tr[align="left"]:not(:first-child)'))
-    const senadores = listaSenadores.map(senador => {
+    const senadores = listaSenadores.map(async senador => {
       const data = senador.querySelector('.clase_tabla td:last-child').textContent.trim()
       /* eslint-disable no-unused-vars */
       let [_, region, circunscripcion] = /Región: (.*)\s*?\| Circunscripción: (\d*)/.exec(data)
       let [__, telefono, mail] = /Teléfono: (.*)\s*?\| Email:(.*)/.exec(data)
+      const nombre = data.split('\n').shift()
+      const { rut } = await infoRut(nombre)[0]
       return {
         id: parseInt(senador.querySelector('td.td_foto > img').src.split('=').pop(), 10),
-        nombre: data.split('\n').shift(),
-        rut: '',
+        nombre,
+        rut,
         region,
         circunscripcion: parseInt(circunscripcion, 10),
         telefono,
