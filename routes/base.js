@@ -1,4 +1,6 @@
 const utils = require('../utils')
+const { JSDOM } = require('jsdom')
+const http = require('http')
 
 exports.addFilters = function (chain, req, res) {
   let q = req.query.q
@@ -155,4 +157,24 @@ exports.addFilters = function (chain, req, res) {
     chain = chain.slice(_start, _start + _limit)
   }
   return chain.value()
+}
+
+exports.scrape = function (address, cb) {
+  http.get(address, res => {
+    if (res.statusCode === 200) {
+      res.setEncoding('utf8')
+      let rawData = ''
+      res.on('data', (chunk) => { rawData += chunk })
+      res.on('end', () => {
+        const { window } = new JSDOM(rawData)
+        cb(window)
+      })
+    } else {
+      res.resume()
+      cb(null)
+    }
+  }).on('error', e => {
+    console.error(e)
+    process.exit(1)
+  })
 }
