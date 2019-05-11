@@ -9,8 +9,8 @@
   ],
   "scripts": {
     "test": "standard --verbose | snazzy && tape test.js | tap-summary",
-    "dev": "micro-dev . -p 8080",
-    "start": "micro -l tcp://0.0.0.0:8080"
+    "dev": "cross-env-shell micro-dev . -p $PORT",
+    "start": "cross-env-shell micro -l tcp://0.0.0.0:$PORT"
   },
   "repository": "YerkoPalma/senadores",
   "license": "MIT",
@@ -23,6 +23,7 @@
   ],
   "devDependencies": {
     "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
     "micro-dev": "^3.0.0",
     "snazzy": "^8.0.0",
     "standard": "^12.0.1",

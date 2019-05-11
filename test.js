@@ -4,10 +4,10 @@ const axios = require('axios')
 const app = require('.')
 
 let server
-axios.defaults.baseURL = 'http://0.0.0.0:8080'
+axios.defaults.baseURL = 'http://0.0.0.0:' + (process.env.PORT || '8080')
 test('setup', t => {
   server = micro(app)
-  server.listen(8080)
+  server.listen(process.env.PORT || '8080')
   t.end()
 })
 

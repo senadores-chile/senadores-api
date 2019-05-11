@@ -3,5 +3,15 @@
 
 > rest api con información del senado de chile
 
+## Rutas
+
+- `GET /senadores`
+- `GET /senadores/:id`
+- `PUT /senadores`
+- `GET /senadores/:id/viajes`
+- `GET /senadores/:id/asistencia`
+- `GET /senadores/:id/votaciones`
+- `GET /senadores/:id/elecciones`
+
 ## License
 [MIT](/license)
