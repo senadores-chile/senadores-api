@@ -22,8 +22,13 @@ test('GET /senadores', async t => {
 })
 
 test('GET /senadores filters', async t => {
+  t.plan(1)
   try {
+    let response
     // ?_page
+    response = await axios.get('/senadores?_page=1')
+    t.ok(response.headers['links'])
+    // let links = parseLinks(response.headers['links'])
     // ?_page & _limit
     // ?_start & _end
     // ?_end
